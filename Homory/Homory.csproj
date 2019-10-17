@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <Authors>凌俊伟</Authors>
+    <Company>homory@homory.com</Company>
+    <Copyright>Copyright (c) 2020 凌俊伟 (homory@homory.com)</Copyright>
+    <PackageProjectUrl>https://github.com/Homory/Homory/blob/master/Homory</PackageProjectUrl>
+    <PackageIconUrl>https://github.com/Homory/Homory/blob/master/Homory.ico</PackageIconUrl>
+    <RepositoryUrl>https://github.com/Homory/Homory</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+    <PackageTags>Homory</PackageTags>
+    <Description>Homory Core Library</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+    <DebugType>none</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <WarningsAsErrors />
+  </PropertyGroup>
+
+</Project>
